@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Визитка товара</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .product-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 300px;
+      margin: auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .product-image {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .related-products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .related-product-card {
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .related-product-image {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+
+    .related-product-title {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-card">
+    <img src="img.jpg" alt="Product Image" class="product-image">
+    <h2>Арбуз</h2>
+    <p>Еда.</p>
+  </div>
+
+  <div class="related-products">
+    <div class="related-product-card">
+      <img src="img1.jpg" alt="Related Product 1" class="related-product-image">
+      <h3 class="related-product-title">Схожий товар 1</h3>
+    </div>
+    <div class="related-product-card">
+      <img src="img2.jpg" alt="Related Product 2" class="related-product-image">
+      <h3 class="related-product-title">Схожий товар 2</h3>
+    </div>
+    <div class="related-product-card">
+      <img src="img3.jpg" alt="Related Product 3" class="related-product-image">
+      <h3 class="related-product-title">Схожий товар 3</h3>
+    </div>
+  </div>
+</body>
+</html>
